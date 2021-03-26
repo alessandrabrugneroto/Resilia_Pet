@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(128, 128, 128);
+    color: yellow;
+    width: 78%;
+    padding: initial;
+    height: 40px;
+    margin-top: 0;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: yellow;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.containerone {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 20%;
+    height: 250px;
+}
+
+.imagenssix {
+    position: absolute;
+    top: 20%;
+    left: 77%;
+    width: 70%;
+}
+
+.imagensone {
+    border: solid 2px yellow;
+    border-width: 5px;
+    width: 40%;
+    height: 200px;
+}
