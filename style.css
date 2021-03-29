@@ -1,58 +1,141 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+                                    * {
+                                        margin: 0;
+                                        padding: 0;
+                                    }
 
-header {
-    background-color: rgb(128, 128, 128);
-    color: yellow;
-    width: 78%;
-    padding: initial;
-    height: 40px;
-    margin-top: 0;
-}
+                                    header {
+                                        background-color: #808080a1;
+                                        color: gold;
+                                        width: 6 1%;
+                                        height: 50px;
+                                        margin-top: 0;
+                                        border: solid 2px black;
+                                    }
 
-nav {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: yellow;
-    padding: 10px;
-}
+                                    h1 {
+                                        margin-left: 30%;
+                                    }
 
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-}
+                                    @media screen and(max-width: 600px) {
+                                        h1 {
+                                            margin-left: 5%;
+                                        }
+                                    }
 
-nav a {
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: none;
-}
+                                    h1:hover {
+                                        font-size: 50px;
+                                    }
 
-.containerone {
-    display: flex;
-    flex-direction: row;
-}
+                                    nav {
+                                        position: absolute;
+                                        top: 0;
+                                        right: 0;
+                                        background-color: gold;
+                                        padding: 15px;
+                                        width: 525px;
+                                        border: solid 2px black;
+                                    }
 
-img {
-    width: 20%;
-    height: 250px;
-}
+                                    @media screen and (max-width: 600px) {
+                                        nav {
+                                            position: absolute;
+                                            background-color: gold;
+                                            padding: 0px;
+                                            width: 150px;
+                                            border: solid 2px black;
+                                        }
+                                    }
 
-.imagenssix {
-    position: absolute;
-    top: 20%;
-    left: 77%;
-    width: 70%;
-}
+                                    nav li {
+                                        display: inline;
+                                        margin: 0 0 0 60px;
+                                        border: solid 2px black;
+                                    }
 
-.imagensone {
-    border: solid 2px yellow;
-    border-width: 5px;
-    width: 40%;
-    height: 200px;
-}
+                                    nav a {
+                                        text-transform: uppercase;
+                                        color: black;
+                                        font-weight: bold;
+                                        font-size: 18px;
+                                        text-decoration: none;
+                                        text-align: center;
+                                    }
+
+                                    .container {
+                                        display: flex;
+                                        flex-direction: column;
+                                        margin: 0px auto;
+                                        width: 100%;
+                                        left: 70%;
+                                        text-align: center;
+                                        background-color: rgba(128, 128, 128, 0.575);
+                                        border-radius: 10px;
+                                    }
+
+                                    img {
+                                        align-items: center;
+                                        justify-content: center;
+                                        width: 25%;
+                                        height: 200px;
+                                        border: solid 4px yellow;
+                                        margin: 5px 0;
+                                        border-radius: 10px;
+                                        left: 50%;
+                                    }
+
+                                    img:hover {
+                                        border-color: green;
+                                    }
+
+                                    h2 {
+                                        position: relative;
+                                        top: 0px;
+                                        font-size: 20px;
+                                        margin: 5px;
+                                        background-color: gold;
+                                        text-align: center;
+                                        border: solid 2px black;
+                                    }
+
+                                    @media screen and(max-width: 600px) {
+                                        h2 {
+                                            position: relative;
+                                            top: 30px;
+                                            font-size: 5px;
+                                            margin: 5px;
+                                            background-color: gold;
+                                            text-align: center;
+                                            border: solid 2px black;
+                                        }
+                                    }
+
+                                    .imagenssix {
+                                        position: absolute;
+                                        top: 400px;
+                                        left: 60%;
+                                        width: 120%;
+                                        height: 600px;
+                                        margin: -20px;
+                                        padding: 50px;
+                                    }
+
+                                    h5 {
+                                        position: absolute;
+                                        top: 0;
+                                        left: 30%;
+                                        width: 1 20%;
+                                        margin: 685px;
+                                        font-size: 15px;
+                                    }
+
+                                    nav a:hover {
+                                        color: green;
+                                        text-decoration: underline;
+                                    }
+
+                                    footer {
+                                        text-align: center;
+                                        background-color: #808080da;
+                                        padding: 25px 0;
+                                        border-color: black;
+                                    }
