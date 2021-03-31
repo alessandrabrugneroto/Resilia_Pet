@@ -34,8 +34,8 @@
                                              @media screen and (max-width: 480px) {
                                                  h1 {
                                                      font-size: 20px;
-                                                     padding: 16px;
-                                                     color: rgba(236, 221, 14, 0.973);
+                                                     padding: 12px;
+                                                     color: rgba(240, 225, 23, 0.932);
                                                  }
                                              }
                                              
@@ -230,6 +230,6 @@
                                                      padding: 20px 0;
                                                      border-color: black;
                                                      width: 400px;
-                                                     top: 650%;
+                                                     top: 728%;
                                                  }
                                              }
