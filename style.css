@@ -1,141 +1,235 @@
-                                    * {
-                                        margin: 0;
-                                        padding: 0;
-                                    }
-
-                                    header {
-                                        background-color: #808080a1;
-                                        color: gold;
-                                        width: 6 1%;
-                                        height: 50px;
-                                        margin-top: 0;
-                                        border: solid 2px black;
-                                    }
-
-                                    h1 {
-                                        margin-left: 30%;
-                                    }
-
-                                    @media screen and(max-width: 600px) {
-                                        h1 {
-                                            margin-left: 5%;
-                                        }
-                                    }
-
-                                    h1:hover {
-                                        font-size: 50px;
-                                    }
-
-                                    nav {
-                                        position: absolute;
-                                        top: 0;
-                                        right: 0;
-                                        background-color: gold;
-                                        padding: 15px;
-                                        width: 525px;
-                                        border: solid 2px black;
-                                    }
-
-                                    @media screen and (max-width: 600px) {
-                                        nav {
-                                            position: absolute;
-                                            background-color: gold;
-                                            padding: 0px;
-                                            width: 150px;
-                                            border: solid 2px black;
-                                        }
-                                    }
-
-                                    nav li {
-                                        display: inline;
-                                        margin: 0 0 0 60px;
-                                        border: solid 2px black;
-                                    }
-
-                                    nav a {
-                                        text-transform: uppercase;
-                                        color: black;
-                                        font-weight: bold;
-                                        font-size: 18px;
-                                        text-decoration: none;
-                                        text-align: center;
-                                    }
-
-                                    .container {
-                                        display: flex;
-                                        flex-direction: column;
-                                        margin: 0px auto;
-                                        width: 100%;
-                                        left: 70%;
-                                        text-align: center;
-                                        background-color: rgba(128, 128, 128, 0.575);
-                                        border-radius: 10px;
-                                    }
-
-                                    img {
-                                        align-items: center;
-                                        justify-content: center;
-                                        width: 25%;
-                                        height: 200px;
-                                        border: solid 4px yellow;
-                                        margin: 5px 0;
-                                        border-radius: 10px;
-                                        left: 50%;
-                                    }
-
-                                    img:hover {
-                                        border-color: green;
-                                    }
-
-                                    h2 {
-                                        position: relative;
-                                        top: 0px;
-                                        font-size: 20px;
-                                        margin: 5px;
-                                        background-color: gold;
-                                        text-align: center;
-                                        border: solid 2px black;
-                                    }
-
-                                    @media screen and(max-width: 600px) {
-                                        h2 {
-                                            position: relative;
-                                            top: 30px;
-                                            font-size: 5px;
-                                            margin: 5px;
-                                            background-color: gold;
-                                            text-align: center;
-                                            border: solid 2px black;
-                                        }
-                                    }
-
-                                    .imagenssix {
-                                        position: absolute;
-                                        top: 400px;
-                                        left: 60%;
-                                        width: 120%;
-                                        height: 600px;
-                                        margin: -20px;
-                                        padding: 50px;
-                                    }
-
-                                    h5 {
-                                        position: absolute;
-                                        top: 0;
-                                        left: 30%;
-                                        width: 1 20%;
-                                        margin: 685px;
-                                        font-size: 15px;
-                                    }
-
-                                    nav a:hover {
-                                        color: green;
-                                        text-decoration: underline;
-                                    }
-
-                                    footer {
-                                        text-align: center;
-                                        background-color: #808080da;
-                                        padding: 25px 0;
-                                        border-color: black;
-                                    }
+                                             * {
+                                                 margin: 0;
+                                                 padding: 0;
+                                             }
+                                             
+                                             header {
+                                                 background-color: rgba(128, 128, 128, 0.644);
+                                                 color: rgb(241, 219, 92);
+                                                 width: 61%;
+                                                 height: 49px;
+                                                 margin-top: 0;
+                                             }
+                                             
+                                             @media screen and (max-width: 480px) {
+                                                 header {
+                                                     background-color: rgba(128, 128, 128, 0.644);
+                                                     color: rgba(238, 211, 62, 0.973);
+                                                     width: 100%;
+                                                     height: 54px;
+                                                     padding: 10px;
+                                                     left: 30%;
+                                                     margin: 5px;
+                                                 }
+                                             }
+                                             
+                                             body {
+                                                 background-color: gray;
+                                             }
+                                             
+                                             h1 {
+                                                 margin-left: 30%;
+                                             }
+                                             
+                                             @media screen and (max-width: 480px) {
+                                                 h1 {
+                                                     font-size: 20px;
+                                                     padding: 16px;
+                                                     color: rgba(236, 221, 14, 0.973);
+                                                 }
+                                             }
+                                             
+                                             h1:hover {
+                                                 font-size: 50px;
+                                             }
+                                             
+                                             nav {
+                                                 position: absolute;
+                                                 top: 0;
+                                                 right: 0;
+                                                 background-color: rgba(128, 128, 128, 0.644);
+                                                 padding: 14px;
+                                                 width: 527px;
+                                             }
+                                             
+                                             @media screen and (max-width: 480px) {
+                                                 nav {
+                                                     position: absolute;
+                                                     top: 3px;
+                                                     background-color: rgba(128, 128, 128, 0.644);
+                                                     padding: 15px;
+                                                     width: 93%;
+                                                     height: 30px;
+                                                 }
+                                             }
+                                             
+                                             nav li {
+                                                 display: inline;
+                                                 margin: 0 0 0 60px;
+                                             }
+                                             
+                                             @media screen and (max-width: 480px) {
+                                                 nav li {
+                                                     display: block;
+                                                     margin: 0 0 5px;
+                                                     text-align: left;
+                                                 }
+                                             }
+                                             
+                                             nav a {
+                                                 text-transform: uppercase;
+                                                 color: black;
+                                                 font-weight: bold;
+                                                 font-size: 18px;
+                                                 text-decoration: none;
+                                                 text-align: center;
+                                                 border: solid 1px black;
+                                                 border-radius: 5px;
+                                             }
+                                             
+                                             @media screen and (max-width: 480px) {
+                                                 nav a {
+                                                     text-transform: uppercase;
+                                                     color: black;
+                                                     font-weight: bold;
+                                                     font-size: 12px;
+                                                     text-decoration: none;
+                                                     text-align: center;
+                                                     height: 15px;
+                                                     border-radius: 5px;
+                                                 }
+                                             }
+                                             
+                                             img {
+                                                 align-items: center;
+                                                 justify-content: center;
+                                                 width: 25%;
+                                                 height: 200px;
+                                                 border: solid 4px yellow;
+                                                 margin: 5px 0;
+                                                 border-radius: 10px;
+                                             }
+                                             
+                                             @media screen and (max-width: 480px) {
+                                                 img {
+                                                     align-items: center;
+                                                     justify-content: center;
+                                                     width: 55%;
+                                                     height: 350px;
+                                                     border: solid 4px yellow;
+                                                     margin: 5px 0;
+                                                     border-radius: 10px;
+                                                     left: 45%;
+                                                 }
+                                             }
+                                             
+                                             img:hover {
+                                                 border-color: green;
+                                             }
+                                             
+                                             h2 {
+                                                 position: relative;
+                                                 top: 0px;
+                                                 font-size: 20px;
+                                                 margin: 5px;
+                                                 background-color: gold;
+                                                 text-align: center;
+                                                 border: solid 2px black;
+                                             }
+                                             
+                                             @media screen and (max-width: 480px) {
+                                                 h2 {
+                                                     position: relative;
+                                                     top: 0px;
+                                                     font-size: 13px;
+                                                     margin: 2px;
+                                                     background-color: gold;
+                                                     text-align: center;
+                                                     border: solid 2px black;
+                                                     border-radius: 5px;
+                                                     width: 382px;
+                                                 }
+                                             }
+                                             
+                                             .imagenssix {
+                                                 position: absolute;
+                                                 top: 400px;
+                                                 left: 60%;
+                                                 width: 120%;
+                                                 height: 600px;
+                                                 margin: -20px;
+                                                 padding: 50px;
+                                             }
+                                             
+                                             h5 {
+                                                 position: absolute;
+                                                 top: 0;
+                                                 left: 30%;
+                                                 width: 1 20%;
+                                                 margin: 685px;
+                                                 font-size: 15px;
+                                             }
+                                             
+                                             nav a:hover {
+                                                 color: green;
+                                                 text-decoration: underline;
+                                             }
+                                             
+                                             .flex.container {
+                                                 background-color: rgba(128, 128, 128, 0.575);
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 left: 20px;
+                                             }
+                                             
+                                             @media screen and (max-width: 480px) {
+                                                 .flex.container {
+                                                     display: flex;
+                                                     writing-mode: vertical-lr;
+                                                     background-color: gray;
+                                                     text-align: center;
+                                                 }
+                                             }
+                                             
+                                             .flex-iten {
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 flex-wrap: wrap;
+                                                 min-height: 100%;
+                                                 display: -webkit-flex;
+                                                 display: flex;
+                                                 -webkit-align-items: center;
+                                                 align-items: center;
+                                                 -webkit-justify-content: center;
+                                                 justify-content: center;
+                                                 left: 20%;
+                                             }
+                                             
+                                             @media screen and (max-width: 480px) {
+                                                 .flex-iten {
+                                                     width: 400px;
+                                                     left: 50%;
+                                                     height: 70%;
+                                                     text-align: center;
+                                                 }
+                                             }
+                                             
+                                             footer {
+                                                 text-align: center;
+                                                 background-color: #808080da;
+                                                 padding: 20px;
+                                                 border-color: black;
+                                                 width: 100%;
+                                                 position: absolute;
+                                                 top: 150%;
+                                             }
+                                             
+                                             @media screen and (max-width: 480px) {
+                                                 footer {
+                                                     background-color: #808080da;
+                                                     padding: 20px 0;
+                                                     border-color: black;
+                                                     width: 400px;
+                                                     top: 650%;
+                                                 }
+                                             }
